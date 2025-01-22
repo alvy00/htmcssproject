@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.heading{
+    color: rgb(215, 14, 51);
+}
+
+.box{
+    background-color: rgb(15, 130, 53);
+    height: 200px;
+    width: 200px;
+}
+
+.box p{
+    color: red;
+}
+
+.box button{
+    color: green;
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
