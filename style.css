@@ -49,13 +49,13 @@ nav button:hover{
     color: rgb(235, 241, 240);
 }
 
-.header .header-content{
+.header-content{
     display: flex;
     padding-top: 15%;
     gap: 5%;
 }
 
-.header .header-content .header-content-text{
+.header-content-text{
     width: 80%;
     margin: auto;
     display: flex;
@@ -64,19 +64,19 @@ nav button:hover{
     flex-shrink: 1;
     justify-content: center;
 }
-.header .header-content .header-content-text h2{
+.header-content-text h2{
     font-family: poppins-thin;
     font-size: 30px;
     font-weight: 600;
     color: rgb(0, 0, 0);
 }
-.header .header-content .header-content-text p{
+.header-content-text p{
     padding: 7% 0%;
     font-size: 18px;
     font-weight: 400;
     color: rgb(0, 0, 0);
 }
-.header .header-content .header-content-text button{
+.header-content-text button{
     padding: 3% 2%;
     background-color: hsl(322, 100%, 66%);
     border: 1px slategrey;
@@ -86,11 +86,11 @@ nav button:hover{
     color: hsl(193, 100%, 96%);
 }
 
-.header .header-content .img{
+.header-content .img{
     flex: 1;
     flex-shrink: 1;
 }
-.header .header-content .img img{
+.img img{
     width: 100%;
     min-width: 120px;
 }
@@ -109,12 +109,12 @@ nav button:hover{
     box-shadow: 10px -5px 87px -54px rgba(144,22,201,1);
     margin: 5%;
 }
-.growTogether .growTogether-content{
+.growTogether-content{
     display: flex;
     padding-top: 2%;
     gap: 5%;
 }
-.growTogether .growTogether-content .growTogether-content-text{
+.growTogether-content-text{
     width: 80%;
     margin: auto;
     display: flex;
@@ -123,23 +123,23 @@ nav button:hover{
     flex-shrink: 1;
     justify-content: center;
 }
-.growTogether .growTogether-content .growTogether-content-text h2{
+.growTogether-content-text h2{
     font-family: poppins-thin;
     font-size: 30px;
     font-weight: 600;
     color: rgb(0, 0, 0);
 }
-.growTogether .growTogether-content .growTogether-content-text p{
+.growTogether-content-text p{
     padding: 7% 0%;
     font-size: 18px;
     font-weight: 400;
     color: rgb(0, 0, 0);
 }
-.growTogether .growTogether-content .growTogether-img{
+.growTogether-img{
     flex: 1;
     flex-shrink: 2;
 }
-.growTogether .growTogether-content .growTogether-img img{
+.growTogether-img img{
     width: 100%;
     min-width: 120px;
 }
@@ -155,12 +155,12 @@ nav button:hover{
     box-shadow: 10px -5px 87px -54px rgba(19,214,214,1);
     margin: 5%;
 }
-.flowingConversation .flowingConversation-content{
+.flowingConversation-content{
     display: flex;
     padding-top: 2%;
     gap: 5%;
 }
-.flowingConversation .flowingConversation-content .flowingConversation-content-text{
+.flowingConversation-content-text{
     width: 80%;
     margin: auto;
     display: flex;
@@ -169,23 +169,23 @@ nav button:hover{
     flex-shrink: 1;
     justify-content: center;
 }
-.flowingConversation .flowingConversation-content .flowingConversation-content-text h2{
+.flowingConversation-content-text h2{
     font-family: poppins-thin;
     font-size: 30px;
     font-weight: 600;
     color: rgb(0, 0, 0);
 }
-.flowingConversation .flowingConversation-content .flowingConversation-content-text p{
+.flowingConversation-content-text p{
     padding: 7% 0%;
     font-size: 18px;
     font-weight: 400;
     color: rgb(0, 0, 0);
 }
-.flowingConversation .flowingConversation-content .flowingConversation-img{
+.flowingConversation-img{
     flex: 1;
     flex-shrink: 1;
 }
-.flowingConversation .flowingConversation-content .flowingConversation-img img{
+.flowingConversation-img img{
     width: 100%;
     min-width: 120px;
 }
@@ -201,12 +201,12 @@ nav button:hover{
     box-shadow: 10px -5px 87px -54px rgba(230,230,12,1);
     margin: 5%;
 }
-.yourUsers .yourUsers-content{
+.yourUsers-content{
     display: flex;
     padding-top: 2%;
     gap: 5%;
 }
-.yourUsers .yourUsers-content .yourUsers-content-text{
+.yourUsers-content-text{
     width: 80%;
     margin: auto;
     display: flex;
@@ -215,23 +215,23 @@ nav button:hover{
     flex-shrink: 1;
     justify-content: center;
 }
-.yourUsers .yourUsers-content .yourUsers-content-text h2{
+.yourUsers-content-text h2{
     font-family: poppins-thin;
     font-size: 30px;
     font-weight: 600;
     color: rgb(0, 0, 0);
 }
-.yourUsers .yourUsers-content .yourUsers-content-text p{
+.yourUsers-content-text p{
     padding: 7% 0%;
     font-size: 18px;
     font-weight: 400;
     color: rgb(0, 0, 0);
 }
-.yourUsers .yourUsers-content .yourUsers-img{
+.yourUsers-img{
     flex: 1;
     flex-shrink: 1;
 }
-.yourUsers .yourUsers-content .yourUsers-img img{
+.yourUsers-img img{
     width: 100%;
     min-width: 120px;
 }
@@ -304,85 +304,85 @@ nav button:hover{
 /* ----------------------Responsiveness---------------------- */
 @media(max-width: 768px){
 
-    .header .header-content{
+    .header-content{
         display: flex;
         padding-top: 15%;
         gap: 5%;
         flex-direction: column;
     }
-    .header .header-content .header-content-text p{
+    .header-content-text p{
         margin: 0% 25%;
     }
-    .header .header-content .header-content-text h2{
+    .header-content-text h2{
         text-align: center;
         font-size: 17px;
     }
-    .header .header-content .header-content-text p{
+    .header-content-text p{
         width: 50%;
         text-align: center;
         font-size: 9px;
         font-weight: 900;
     }
-    .header .header-content .header-content-text button{
+    .header-content-text button{
         width: 100%;
         margin: 0% 0% 10% 0%;
     }
 
 
-    .growTogether .growTogether-content{
+    .growTogether-content{
         display: flex;
         /* padding-top: 15%;
         gap: 5%; */
         flex-direction: column;
     }
-    .growTogether .growTogether-content .growTogether-content-text p{
+    .growTogether-content-text p{
         margin: 0% 25%;
     }
-    .growTogether .growTogether-content .growTogether-content-text h2{
+    .growTogether-content-text h2{
         text-align: center;
         font-size: 17px;
     }
-    .growTogether .growTogether-content .growTogether-content-text p{
+    .growTogether-content-text p{
         width: 50%;
         text-align: center;
         font-size: 9px;
         font-weight: 900;
     }
 
-    .flowingConversation .flowingConversation-content{
+    .flowingConversation-content{
         display: flex;
         /* padding-top: 15%;
         gap: 5%; */
         flex-direction: column;
     }
-    .flowingConversation .flowingConversation-content .flowingConversation-content-text p{
+    .flowingConversation-content-text p{
         margin: 0% 25%;
     }
-    .flowingConversation .flowingConversation-content .flowingConversation-content-text h2{
+    .flowingConversation-content-text h2{
         text-align: center;
         font-size: 17px;
     }
-    .flowingConversation .flowingConversation-content .flowingConversation-content-text p{
+    .flowingConversation-content-text p{
         width: 50%;
         text-align: center;
         font-size: 9px;
         font-weight: 900;
     }
 
-    .yourUsers .yourUsers-content{
+    .yourUsers-content{
         display: flex;
         /* padding-top: 15%;
         gap: 5%; */
         flex-direction: column;
     }
-    .yourUsers .yourUsers-content .yourUsers-content-text p{
+    .yourUsers-content-text p{
         margin: 0% 25%;
     }
-    .yourUsers .yourUsers-content .yourUsers-content-text h2{
+    .yourUsers-content-text h2{
         text-align: center;
         font-size: 17px;
     }
-    .yourUsers .yourUsers-content .yourUsers-content-text p{
+    .yourUsers-content-text p{
         width: 50%;
         text-align: center;
         font-size: 9px;
